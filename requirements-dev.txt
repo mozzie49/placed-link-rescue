@@ -1,0 +1,3 @@
+-r skills/placed-link-rescue/requirements.txt
+# Independent validation only. PyMuPDF is AGPL/commercial-licensed; not a runtime dependency.
+PyMuPDF==1.26.6
