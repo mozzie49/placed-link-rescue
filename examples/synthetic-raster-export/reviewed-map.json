@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "review": {
+    "approved": true,
+    "reviewer": "Automated synthetic-fixture test",
+    "note": "TEST-ONLY acknowledgment, not human production review. Known construction: advertisements page 2 is target page 2; page 1 is target page 4. Entire artwork placed 1:1 at zero offset. Original fixture only.",
+    "alignment": "reviewed-identity"
+  },
+  "target": {
+    "path": "magazine-export.pdf",
+    "sha256": "3ca8faa6a293a563758e22eeeb00d21f276c526f84a7bd2dc516c5a7ad2c649c"
+  },
+  "sources": {
+    "ads": {
+      "path": "advertisements.pdf",
+      "sha256": "0f3221196e93431a3f59cb148710a5a1bcc7c1336085e907d8cb82cfc1fa7711"
+    }
+  },
+  "placements": [
+    {
+      "source": "ads",
+      "source_page": 2,
+      "target_page": 2,
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "source": "ads",
+      "source_page": 1,
+      "target_page": 4,
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
