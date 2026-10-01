@@ -1,0 +1,96 @@
+{
+  "command": "python -m unittest discover -s tests -v",
+  "environment": {
+    "MuPDF": "1.26.6",
+    "Pillow": "12.3.0",
+    "Poppler": "pdftoppm version 26.05.0",
+    "ReportLab": "4.4.9",
+    "pypdf": "6.19.0",
+    "python": "3.12.14",
+    "system": "Linux"
+  },
+  "files": {
+    ".github/workflows/test.yml": "778a857c4ed379e9e9a82c3922bb2debd8b148c096b036b233df5590c6f5def4",
+    ".gitignore": "13381da966338e989bcbf2aea385c08333bc6159642741c8cfbae6f98205d916",
+    "AI_PROVENANCE.md": "4eb97be80855ae4a740a2222a6ce38099ed63f87a3e44824d7e8331cac977240",
+    "FONT_LICENSE.txt": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+    "LICENSE": "05f3dcda4539214b2d47c171792a8367147de2d7ac68eabc3fde07fa3a153b8b",
+    "README.md": "867126714324cf604afdb6cc1c2fd2fdeb507816075641a950cf54337646f92e",
+    "docs/RESEARCH.md": "66bbd69148cb0842c3b5d20df26a9b5790bdbaceb99236308e42103fa4a2d898",
+    "docs/VALIDATION.md": "668b17390b8ca4ee2b1d3395652c7b0c4a53697bf2b24258ddce73c472c86bb0",
+    "docs/preview.png": "9c23c1744aaaca21275c900727ca4685283631226db1941b805c9f5a267f8e0b",
+    "examples/synthetic-magazine/advertisements.pdf": "0f3221196e93431a3f59cb148710a5a1bcc7c1336085e907d8cb82cfc1fa7711",
+    "examples/synthetic-magazine/magazine-export.pdf": "40ad1f3c9f741a5ee7a5e921fa39f7616f8e13bbb440f8114c92bb975d5dad0a",
+    "examples/synthetic-magazine/recovered/digital.pdf": "f1f54d23b4882cfb414229fd3af3e2a1197446086c61f1a7a37094449e16cff3",
+    "examples/synthetic-magazine/recovered/proof.pdf": "416c6a6cde0b5eddb437d8049299db0b8b02d7f8b1e4a0058674e62cf750dce8",
+    "examples/synthetic-magazine/recovered/receipt.json": "ec5ccc8c3ad0ee432f499877b64b2c07500fe32f0cdfb1c5762907277319ca3b",
+    "examples/synthetic-magazine/reviewed-map.json": "72ce070cc40608f4bd76893e20309e012b73943f6386945d10b4f7cf3d2e127e",
+    "examples/synthetic-raster-export/advertisements.pdf": "0f3221196e93431a3f59cb148710a5a1bcc7c1336085e907d8cb82cfc1fa7711",
+    "examples/synthetic-raster-export/magazine-export.pdf": "3ca8faa6a293a563758e22eeeb00d21f276c526f84a7bd2dc516c5a7ad2c649c",
+    "examples/synthetic-raster-export/preview/preview.json": "dd16598e1a7e7a87f4edbd7783922e18b2cff8c8556f6b4910bcd728ede1c261",
+    "examples/synthetic-raster-export/preview/proof.pdf": "2ee015b14782802b0c2e0e0d1996785850f6b9aae6eb93047d9461911aba947f",
+    "examples/synthetic-raster-export/recovered/digital.pdf": "2a43b6db637948e7962cc648cc41ff23c7011694d4b0c695a6ab02463788bf75",
+    "examples/synthetic-raster-export/recovered/proof.pdf": "878bd57a7fee808d7d135200d378591c72aa75a54df70f2ad2f86cb37e2c00e9",
+    "examples/synthetic-raster-export/recovered/receipt.json": "2d36fc96c855f129d7855a7ffb08f67ab449835629272145ceaa134d1deeb8cb",
+    "examples/synthetic-raster-export/reviewed-map.json": "614b7070e3792da0620b596afd21e5c1d601614a42484901f5c878250d1408d3",
+    "requirements-dev.txt": "d5bf4db65830884150070a329cad6792ba02cf2db29847e4c3edc54b9cb162ba",
+    "skills/placed-link-rescue/FONT_LICENSE.txt": "3361d054759a2fc686a2c058be82deaf9c2e6fe549be9004d7935a6c1736315d",
+    "skills/placed-link-rescue/LICENSE": "05f3dcda4539214b2d47c171792a8367147de2d7ac68eabc3fde07fa3a153b8b",
+    "skills/placed-link-rescue/SKILL.md": "3e2b73a27103e9024681910e164cee85ece5bb708bbef72863ec02840005454a",
+    "skills/placed-link-rescue/references/workflow.md": "a233936f336cbc70677f08da432a6a2b3f401670a5c4a5fea6cf74651de57bdc",
+    "skills/placed-link-rescue/requirements.txt": "de779152994fef03f52333363b0ddb90629953a95ca942ebe3a1187d56f8e7e7",
+    "skills/placed-link-rescue/scripts/placed_link_rescue.py": "9d6b6fcc94b3a5cba3361d196a08f00fc04c55655dcba1d3f74e459fba7de9f0",
+    "tests/make_fixtures.py": "3bc6a01004bb56fbc7f3544730df2612055972c519b68ee57a6b3b2f2e571d32",
+    "tests/test_independent_review.py": "e45ea86f4548e81110a54191ba464053b0bfcedcac3cc494cf3bb1f8bb859946",
+    "tests/test_rescue.py": "4ca05e1e846009d44fa82024446fd246300ad1cd525869bcdfe1fceaf8eadd21",
+    "tests/validate_release.py": "dcf96ab0ab44adb4283603f20273d91a6f8be76805807e7d42a074cf6d21bdb5"
+  },
+  "fixtures": {
+    "synthetic-magazine": {
+      "alignment_policy": "exact-artwork",
+      "all_target_pages_render_identically": true,
+      "exact_artwork_matches": [
+        true,
+        true
+      ],
+      "output_sha256": "f1f54d23b4882cfb414229fd3af3e2a1197446086c61f1a7a37094449e16cff3",
+      "recovered_links": 3,
+      "source_pages": 2,
+      "target_pages": 5
+    },
+    "synthetic-raster-export": {
+      "alignment_policy": "reviewed-identity",
+      "all_target_pages_render_identically": true,
+      "exact_artwork_matches": [
+        false,
+        false
+      ],
+      "output_sha256": "2a43b6db637948e7962cc648cc41ff23c7011694d4b0c695a6ab02463788bf75",
+      "recovered_links": 3,
+      "source_pages": 2,
+      "target_pages": 5
+    }
+  },
+  "independent_checks": [
+    "MuPDF parses annotations, destinations, outlines and named destinations",
+    "MuPDF and Poppler actual target/output pixel comparisons",
+    "separate agent adversarial review and regression tests",
+    "copied-skill repair from outside repository",
+    "human-readable hotspot proof rendered and visually inspected by assistant"
+  ],
+  "not_validated": [
+    "real InDesign exports",
+    "private/customer publication",
+    "Windows execution",
+    "PDF/UA or PDF/A compliance",
+    "hostile-PDF sandbox security",
+    "remote CI execution"
+  ],
+  "project": "PlacedLinkRescue",
+  "result": "pass",
+  "schema": 1,
+  "test_seconds": 25.138,
+  "tests": 55,
+  "validated_date": "2026-10-01",
+  "version": "0.1.0"
+}

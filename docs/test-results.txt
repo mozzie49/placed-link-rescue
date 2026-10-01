@@ -1,0 +1,62 @@
+test_duplicate_source_annotation_is_reported_separately (test_independent_review.IndependentReviewTests.test_duplicate_source_annotation_is_reported_separately) ... ok
+test_embedded_files_and_signature_dictionary_are_refused (test_independent_review.IndependentReviewTests.test_embedded_files_and_signature_dictionary_are_refused) ... ok
+test_existing_output_symlink_is_never_followed (test_independent_review.IndependentReviewTests.test_existing_output_symlink_is_never_followed) ... ok
+test_explicit_goto_action_is_preserved (test_independent_review.IndependentReviewTests.test_explicit_goto_action_is_preserved) ... ok
+test_external_stream_file_references_are_refused (test_independent_review.IndependentReviewTests.test_external_stream_file_references_are_refused) ... ok
+test_fifo_map_is_refused_without_blocking (test_independent_review.IndependentReviewTests.test_fifo_map_is_refused_without_blocking) ... ok
+test_fractional_rotation_is_not_silently_truncated (test_independent_review.IndependentReviewTests.test_fractional_rotation_is_not_silently_truncated) ... ok
+test_geometry_box_differences_are_refused (test_independent_review.IndependentReviewTests.test_geometry_box_differences_are_refused) ... ok
+test_indirect_source_uri_retains_exact_destination (test_independent_review.IndependentReviewTests.test_indirect_source_uri_retains_exact_destination) ... ok
+test_indirect_target_annotations_are_preserved (test_independent_review.IndependentReviewTests.test_indirect_target_annotations_are_preserved) ... ok
+test_limits_refuse_before_rendering (test_independent_review.IndependentReviewTests.test_limits_refuse_before_rendering) ... ok
+test_overlapping_source_hotspots_are_refused (test_independent_review.IndependentReviewTests.test_overlapping_source_hotspots_are_refused) ... ok
+test_runtime_version_failure_keeps_verified_result (test_independent_review.IndependentReviewTests.test_runtime_version_failure_keeps_verified_result) ... ok
+test_source_hash_change_is_refused (test_independent_review.IndependentReviewTests.test_source_hash_change_is_refused) ... ok
+test_target_unsafe_uri_is_not_silently_preserved (test_independent_review.IndependentReviewTests.test_target_unsafe_uri_is_not_silently_preserved) ... ok
+test_unavailable_or_failed_renderer_leaves_no_bundle (test_independent_review.IndependentReviewTests.test_unavailable_or_failed_renderer_leaves_no_bundle) ... ok
+test_unknown_and_active_link_actions_are_refused (test_independent_review.IndependentReviewTests.test_unknown_and_active_link_actions_are_refused) ... ok
+test_unsafe_source_uri_schemes_are_not_restored (test_independent_review.IndependentReviewTests.test_unsafe_source_uri_schemes_are_not_restored) ... ok
+test_action_chain (test_rescue.RescueTests.test_action_chain) ... ok
+test_actual_offset_exact_mode (test_rescue.RescueTests.test_actual_offset_exact_mode) ... ok
+test_ambiguous_uri (test_rescue.RescueTests.test_ambiguous_uri) ... ok
+test_bool_page (test_rescue.RescueTests.test_bool_page) ... ok
+test_canonical_preserves_primitive_types (test_rescue.RescueTests.test_canonical_preserves_primitive_types) ... ok
+test_canonical_work_bound (test_rescue.RescueTests.test_canonical_work_bound) ... ok
+test_crop (test_rescue.RescueTests.test_crop) ... ok
+test_declared_scale_offset (test_rescue.RescueTests.test_declared_scale_offset) ... ok
+test_deterministic_same_inputs (test_rescue.RescueTests.test_deterministic_same_inputs) ... ok
+test_duplicate_json_key (test_rescue.RescueTests.test_duplicate_json_key) ... ok
+test_duplicate_target (test_rescue.RescueTests.test_duplicate_target) ... ok
+test_encryption (test_rescue.RescueTests.test_encryption) ... ok
+test_form (test_rescue.RescueTests.test_form) ... ok
+test_hash_mismatch (test_rescue.RescueTests.test_hash_mismatch) ... ok
+test_hidden_duplicate (test_rescue.RescueTests.test_hidden_duplicate) ... ok
+test_internal_source_link_reported (test_rescue.RescueTests.test_internal_source_link_reported) ... ok
+test_javascript (test_rescue.RescueTests.test_javascript) ... $REPO/tests/test_rescue.py:119: DeprecationWarning: add_js is deprecated and will be removed in pypdf 7.0.0. Use add_open_action instead.
+  self.mutate(lambda w:w.add_js('app.alert("no")'));self.refused('Unsupported')
+ok
+test_malformed_pdf_cli (test_rescue.RescueTests.test_malformed_pdf_cli) ... ok
+test_malformed_rect (test_rescue.RescueTests.test_malformed_rect) ... ok
+test_no_overwrite (test_rescue.RescueTests.test_no_overwrite) ... ok
+test_out_of_range (test_rescue.RescueTests.test_out_of_range) ... ok
+test_outline_file_uri (test_rescue.RescueTests.test_outline_file_uri) ... ok
+test_outline_indirect_action_and_file_uri (test_rescue.RescueTests.test_outline_indirect_action_and_file_uri) ... ok
+test_outline_unsafe_untyped_action (test_rescue.RescueTests.test_outline_unsafe_untyped_action) ... ok
+test_overlap_conflict (test_rescue.RescueTests.test_overlap_conflict) ... ok
+test_quadpoints (test_rescue.RescueTests.test_quadpoints) ... ok
+test_raster_export_requires_explicit_review (test_rescue.RescueTests.test_raster_export_requires_explicit_review) ... ok
+test_reorder_insert_preserves_content_links_toc (test_rescue.RescueTests.test_reorder_insert_preserves_content_links_toc) ... ok
+test_repeat_is_byte_identical (test_rescue.RescueTests.test_repeat_is_byte_identical) ... ok
+test_reserved_source (test_rescue.RescueTests.test_reserved_source) ... ok
+test_review_required (test_rescue.RescueTests.test_review_required) ... ok
+test_rotation (test_rescue.RescueTests.test_rotation) ... ok
+test_same_geometry_wrong_page (test_rescue.RescueTests.test_same_geometry_wrong_page) ... ok
+test_signature (test_rescue.RescueTests.test_signature) ... ok
+test_standalone_copied_skill (test_rescue.RescueTests.test_standalone_copied_skill) ... ok
+test_unknown_map_field (test_rescue.RescueTests.test_unknown_map_field) ... ok
+test_userunit (test_rescue.RescueTests.test_userunit) ... ok
+
+----------------------------------------------------------------------
+Ran 55 tests in 25.138s
+
+OK
