@@ -1,0 +1,197 @@
+{
+  "added": 3,
+  "alignment_policy": "reviewed-identity",
+  "already_present": 0,
+  "inputs": {
+    "ads": {
+      "pages": 2,
+      "sha256": "0f3221196e93431a3f59cb148710a5a1bcc7c1336085e907d8cb82cfc1fa7711"
+    },
+    "target": {
+      "pages": 5,
+      "sha256": "3ca8faa6a293a563758e22eeeb00d21f276c526f84a7bd2dc516c5a7ad2c649c"
+    }
+  },
+  "limits": [
+    "Synthetic-fixture validated; not tested with real InDesign exports.",
+    "96-dpi artwork equality is not a proof at every resolution.",
+    "Added annotations are untagged; no PDF/UA, PDF/A or print compliance claim.",
+    "No link destinations were visited or checked for availability."
+  ],
+  "links": [
+    {
+      "annotation": 0,
+      "rect": [
+        30.0,
+        102.0,
+        250.0,
+        132.0
+      ],
+      "source": "ads",
+      "source_page": 2,
+      "status": "added",
+      "target_page": 2,
+      "uri": "https://example.org/north/issue-7#field-notes"
+    },
+    {
+      "annotation": 1,
+      "rect": [
+        30.0,
+        63.0,
+        175.0,
+        93.0
+      ],
+      "source": "ads",
+      "source_page": 2,
+      "status": "added",
+      "target_page": 2,
+      "uri": "mailto:hello@example.org?subject=Field%20Notes"
+    },
+    {
+      "annotation": 0,
+      "rect": [
+        30.0,
+        83.0,
+        279.0,
+        113.0
+      ],
+      "source": "ads",
+      "source_page": 1,
+      "status": "added",
+      "target_page": 4,
+      "uri": "https://example.org/still?edition=fall&ref=print"
+    }
+  ],
+  "map_sha256": "614b7070e3792da0620b596afd21e5c1d601614a42484901f5c878250d1408d3",
+  "output_sha256": "2a43b6db637948e7962cc648cc41ff23c7011694d4b0c695a6ab02463788bf75",
+  "proof_sha256": "878bd57a7fee808d7d135200d378591c72aa75a54df70f2ad2f86cb37e2c00e9",
+  "review": {
+    "alignment": "reviewed-identity",
+    "approved": true,
+    "note": "TEST-ONLY acknowledgment, not human production review. Known construction: advertisements page 2 is target page 2; page 1 is target page 4. Entire artwork placed 1:1 at zero offset. Original fixture only.",
+    "reviewer": "Automated synthetic-fixture test"
+  },
+  "runtime": {
+    "Pillow": "12.3.0",
+    "Poppler": "pdftoppm version 26.05.0",
+    "ReportLab": "4.4.9",
+    "pypdf": "6.19.0",
+    "python": "3.12.14"
+  },
+  "schema": 1,
+  "skipped_source_annotations": [],
+  "source_duplicates": 0,
+  "tool": "PlacedLinkRescue",
+  "verification": {
+    "alignment": [
+      {
+        "assurance": "human-reviewed-not-automatically-proved",
+        "exact_artwork_match": false,
+        "source": "ads",
+        "source_page": 2,
+        "source_render": {
+          "sha256": "bd9476dee3724dfcb53c14ac5c8b3a6d489d1ccbc014dd022eeda3ecd5a2d634",
+          "size": [
+            576,
+            768
+          ]
+        },
+        "target_page": 2,
+        "target_render": {
+          "sha256": "1d5ddd2ac0ec90d60d3eb8ad37f563bb5a542406f65cc6497c70e64e7fd69aed",
+          "size": [
+            576,
+            768
+          ]
+        },
+        "transform": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "assurance": "human-reviewed-not-automatically-proved",
+        "exact_artwork_match": false,
+        "source": "ads",
+        "source_page": 1,
+        "source_render": {
+          "sha256": "76625a1d444f49da161db9f6a3baa7ccb68fb18b09a900cb41060268c8f6f939",
+          "size": [
+            576,
+            768
+          ]
+        },
+        "target_page": 4,
+        "target_render": {
+          "sha256": "c6052c5424141c84031e91d60832e38f2c897516cf7a266c1a2fd0c81b665297",
+          "size": [
+            576,
+            768
+          ]
+        },
+        "transform": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "catalog_navigation_unchanged": true,
+    "dpi": 96,
+    "exact_destinations_verified": true,
+    "existing_annotations_unchanged": true,
+    "page_objects_unchanged": true,
+    "renderer": "Poppler pdftoppm",
+    "target_pages": [
+      {
+        "page": 1,
+        "sha256": "21c0a7c42851ab4693ba51ac51294c9cb264b115ad694bf93152048479d736fa",
+        "size": [
+          576,
+          768
+        ]
+      },
+      {
+        "page": 2,
+        "sha256": "1d5ddd2ac0ec90d60d3eb8ad37f563bb5a542406f65cc6497c70e64e7fd69aed",
+        "size": [
+          576,
+          768
+        ]
+      },
+      {
+        "page": 3,
+        "sha256": "24090e4cd610dab8dcaed01616360c57563dc4a0746040f8da82708bf07c8190",
+        "size": [
+          576,
+          768
+        ]
+      },
+      {
+        "page": 4,
+        "sha256": "c6052c5424141c84031e91d60832e38f2c897516cf7a266c1a2fd0c81b665297",
+        "size": [
+          576,
+          768
+        ]
+      },
+      {
+        "page": 5,
+        "sha256": "dde877891cc3b23480e99f7e9b783eb6fd7d15bbde0bc8aab6c0357d0c65871d",
+        "size": [
+          576,
+          768
+        ]
+      }
+    ],
+    "target_rendering_unchanged": true
+  },
+  "version": "0.1.0"
+}
