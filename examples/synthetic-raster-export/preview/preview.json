@@ -1,0 +1,106 @@
+{
+  "alignment": [
+    {
+      "exact_artwork_match": false,
+      "source": "ads",
+      "source_page": 2,
+      "source_render": {
+        "sha256": "bd9476dee3724dfcb53c14ac5c8b3a6d489d1ccbc014dd022eeda3ecd5a2d634",
+        "size": [
+          576,
+          768
+        ]
+      },
+      "target_page": 2,
+      "target_render": {
+        "sha256": "1d5ddd2ac0ec90d60d3eb8ad37f563bb5a542406f65cc6497c70e64e7fd69aed",
+        "size": [
+          576,
+          768
+        ]
+      },
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "exact_artwork_match": false,
+      "source": "ads",
+      "source_page": 1,
+      "source_render": {
+        "sha256": "76625a1d444f49da161db9f6a3baa7ccb68fb18b09a900cb41060268c8f6f939",
+        "size": [
+          576,
+          768
+        ]
+      },
+      "target_page": 4,
+      "target_render": {
+        "sha256": "c6052c5424141c84031e91d60832e38f2c897516cf7a266c1a2fd0c81b665297",
+        "size": [
+          576,
+          768
+        ]
+      },
+      "transform": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "instruction": "Review every hotspot on source and target. Approve only verified whole-page identity placement. Never approve shifted/scaled/cropped placement.",
+  "links": [
+    {
+      "annotation": 0,
+      "rect": [
+        30.0,
+        102.0,
+        250.0,
+        132.0
+      ],
+      "source": "ads",
+      "source_page": 2,
+      "status": "proposed",
+      "target_page": 2,
+      "uri": "https://example.org/north/issue-7#field-notes"
+    },
+    {
+      "annotation": 1,
+      "rect": [
+        30.0,
+        63.0,
+        175.0,
+        93.0
+      ],
+      "source": "ads",
+      "source_page": 2,
+      "status": "proposed",
+      "target_page": 2,
+      "uri": "mailto:hello@example.org?subject=Field%20Notes"
+    },
+    {
+      "annotation": 0,
+      "rect": [
+        30.0,
+        83.0,
+        279.0,
+        113.0
+      ],
+      "source": "ads",
+      "source_page": 1,
+      "status": "proposed",
+      "target_page": 4,
+      "uri": "https://example.org/still?edition=fall&ref=print"
+    }
+  ],
+  "status": "preview-only"
+}
